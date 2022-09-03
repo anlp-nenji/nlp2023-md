@@ -1,6 +1,6 @@
 # nlp2023-md
 - markdown化を検討中のファイルを集めたリポジトリです
-  - [NLP2022公式サイト](https://www.anlp.jp/nlp2022/)のコンテンツをベースとしています  - 
+  - [NLP2022公式サイト](https://www.anlp.jp/nlp2022/)のコンテンツをベースとしています
 - 大会プログラムのタイムテーブルを含む下記のコンテンツは除外します
   - https://www.anlp.jp/nlp2022/program.html
   - https://www.anlp.jp/nlp2022/proceedings_2022/index.html

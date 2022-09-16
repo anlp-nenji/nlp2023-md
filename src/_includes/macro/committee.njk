@@ -1,0 +1,24 @@
+{%- macro committee_(title_, values_) -%}
+  <h3>{{ title_ }}</h3>
+  <div class="content-committee">
+    <ul class="list-committee">
+  {%- for item in values_ -%}
+        <li>
+        <ul class="committee-about">
+            <li class="image">
+            <img class="photo" alt="{{ item.name }}" src="{{ item.photo }}" />
+            </li>
+            {%- if item.position -%}
+              <li class="position"><strong>{{ item.position }}</strong></li>
+            {%- endif -%}
+            <li class="name">{{ item.name }}</li>
+            {%- if item.affiliation -%}
+              <li class="affiliation">{{ item.affiliation }}</li>
+            {%- endif -%}
+
+        </ul>
+        </li>
+  {%- endfor -%}
+    </ul>
+  </div>
+{%- endmacro -%}

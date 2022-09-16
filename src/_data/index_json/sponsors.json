@@ -1,0 +1,480 @@
+{
+    "プレミアムスイーツ": [
+        "Megagon Labs"
+    ],
+    "スポンサー賞": [
+        "株式会社LegalForce",
+        "NEC",
+        "株式会社サイバーエージェント",
+        "富士通株式会社",
+        "Japan Digital Design 株式会社"
+    ],
+    "platinum": [
+        {
+            "name": "Yahoo! JAPAN",
+            "name_url": "https://www.yahoo.co.jp/",
+            "logo_url": "https://www.yahoo.co.jp/",
+            "logo_image": "logo/P01_Yahoo_JAPAN.png",
+            "logo_style": null
+        },
+        {
+            "name": "Megagon Labs",
+            "name_url": "https://www.megagon.ai/",
+            "logo_url": "https://www.megagon.ai/",
+            "logo_image": "logo/P02_megagon.jpg",
+            "logo_style": "width: 95%"
+        },
+        {
+            "name": "株式会社アドバンスト・メディア\n      ",
+            "name_url": "http://www.advanced-media.co.jp/ ",
+            "logo_url": "http://www.advanced-media.co.jp/ ",
+            "logo_image": "logo/P03_advanced-media.jpg",
+            "logo_style": null
+        },
+        {
+            "name": "株式会社LegalForce",
+            "name_url": "https://legalforce-corp.com/",
+            "logo_url": "https://legalforce-corp.com/",
+            "logo_image": "logo/P04_LegalForce.jpg",
+            "logo_style": "width: 68%"
+        },
+        {
+            "name": "株式会社デンソーアイティーラボラトリ",
+            "name_url": "https://www.d-itlab.co.jp/",
+            "logo_url": "https://www.d-itlab.co.jp/",
+            "logo_image": "logo/P05_d-itlab.png",
+            "logo_style": null
+        },
+        {
+            "name": "NEC",
+            "name_url": "https://jpn.nec.com/rd/index.html",
+            "logo_url": "https://jpn.nec.com/rd/index.html",
+            "logo_image": "logo/P06_NEC.png",
+            "logo_style": null
+        },
+        {
+            "name": "株式会社サイバーエージェント",
+            "name_url": "https://www.cyberagent.co.jp/",
+            "logo_url": "https://www.cyberagent.co.jp/",
+            "logo_image": "logo/P07_CyberAgent.png",
+            "logo_style": null
+        },
+        {
+            "name": "LINE株式会社",
+            "name_url": "https://linecorp.com/ja/",
+            "logo_url": "https://linecorp.com/ja/",
+            "logo_image": "logo/P08_LINE.png",
+            "logo_style": null
+        },
+        {
+            "name": "グーグル合同会社",
+            "name_url": "https://research.google/locations/tokyo/",
+            "logo_url": "https://research.google/locations/tokyo/",
+            "logo_image": "logo/P09_google.jpg",
+            "logo_style": null
+        },
+        {
+            "name": "株式会社pluszero",
+            "name_url": "https://plus-zero.co.jp/",
+            "logo_url": "https://plus-zero.co.jp/",
+            "logo_image": "logo/P10_pluszero.svg",
+            "logo_style": "width: 320%"
+        },
+        {
+            "name": "国立国語研究所",
+            "name_url": "https://www.ninjal.ac.jp/",
+            "logo_url": "https://www.ninjal.ac.jp/",
+            "logo_image": "logo/P11_ninjal.png",
+            "logo_style": null
+        },
+        {
+            "name": "株式会社リクルート",
+            "name_url": "https://www.recruit.co.jp/",
+            "logo_url": "https://www.recruit.co.jp/",
+            "logo_image": "logo/P12_recruit.svg",
+            "logo_style": null
+        },
+        {
+            "name": "富士フイルム株式会社",
+            "name_url": "https://www.fujifilm.com/jp/ja",
+            "logo_url": "https://www.fujifilm.com/jp/ja",
+            "logo_image": "logo/P13_fujifilm.jpg",
+            "logo_style": null
+        },
+        {
+            "name": "富士通株式会社",
+            "name_url": "https://www.fujitsu.com/jp/",
+            "logo_url": "https://www.fujitsu.com/jp/",
+            "logo_image": "logo/P14_fujitsu.jpg",
+            "logo_style": null
+        },
+        {
+            "name": "楽天グループ株式会社",
+            "name_url": "https://rit.rakuten.com/",
+            "logo_url": "https://rit.rakuten.com/",
+            "logo_image": "logo/P15_Rakuten.png",
+            "logo_style": null
+        },
+        {
+            "name": "国立研究開発法人情報通信研究機構",
+            "name_url": "https://www.nict.go.jp",
+            "logo_url": "https://www.nict.go.jp",
+            "logo_image": "logo/P17_NICT.png",
+            "logo_style": null
+        },
+        {
+            "name": "Simeji",
+            "name_url": "https://simeji.me",
+            "logo_url": "https://simeji.me",
+            "logo_image": "logo/P18_simeji.png",
+            "logo_style": null
+        },
+        {
+            "name": "マイクロソフトディベロップメント株式会社",
+            "name_url": "https://www.microsoft.com/ja-jp/mscorp/college/msd-recruit.aspx",
+            "logo_url": "https://www.microsoft.com/ja-jp/mscorp/college/msd-recruit.aspx",
+            "logo_image": "logo/P19_Microsoft.png",
+            "logo_style": null
+        },
+        {
+            "name": "Japan Digital Design 株式会社",
+            "name_url": "https://japan-d2.com/",
+            "logo_url": "https://japan-d2.com/",
+            "logo_image": "logo/P20_JDD.png",
+            "logo_style": null
+        },
+        {
+            "name": "株式会社みらい翻訳",
+            "name_url": "https://miraitranslate.com/",
+            "logo_url": "https://miraitranslate.com/",
+            "logo_image": "logo/P21_MiraiTranslate.png",
+            "logo_style": "width: 90%"
+        },
+        {
+            "name": "ちゅらデータ株式会社",
+            "name_url": "https://churadata.okinawa/",
+            "logo_url": "https://churadata.okinawa/",
+            "logo_image": "logo/P22_ChuraDATA.png",
+            "logo_style": "width: 70%"
+        },
+        {
+            "name": "アマゾン ウェブ サービス ジャパン合同会社",
+            "name_url": "https://aws.amazon.com/jp/",
+            "logo_url": "https://aws.amazon.com/jp/builders-flash/?builders-cards.q=AI%2FML&builders-cards.q_operator=AND&sc_channel=el&sc_campaign=nlp2022_jp&sc_geo=japn&sc_country=jp&sc_outcome=reg&trkCampaign=nlp2022_jp&trk=el_nlp2022_jp",
+            "logo_image": "logo/P23_aws.png",
+            "logo_style": "width: 80%"
+        }
+    ],
+    "gold": [
+        {
+            "name": "株式会社東芝",
+            "name_url": "https://www.global.toshiba/jp/cps/corporate.html",
+            "logo_url": "http://www.toshiba.co.jp/index_j3.htm",
+            "logo_image": "logo/G01_Toshiba.png",
+            "logo_style": null
+        },
+        {
+            "name": "株式会社FRONTEO",
+            "name_url": "https://www.fronteo.com/",
+            "logo_url": "https://www.fronteo.com/",
+            "logo_image": "logo/G02_fronteo.png",
+            "logo_style": null
+        },
+        {
+            "name": "株式会社朝日新聞社",
+            "name_url": "https://cl.asahi.com",
+            "logo_url": "https://cl.asahi.com",
+            "logo_image": "logo/G03_Asahi.jpg",
+            "logo_style": null
+        },
+        {
+            "name": "Sansan株式会社",
+            "name_url": "https://sansan-dsoc.com/",
+            "logo_url": "https://sansan-dsoc.com/",
+            "logo_image": "logo/G04_sansan.png",
+            "logo_style": null
+        },
+        {
+            "name": "株式会社 Insight Tech",
+            "name_url": "https://insight-tech.co.jp/",
+            "logo_url": "https://insight-tech.co.jp/",
+            "logo_image": "logo/G05_Insight-Tech.png",
+            "logo_style": null
+        },
+        {
+            "name": "株式会社バオバブ",
+            "name_url": "https://baobab-trees.com/",
+            "logo_url": "https://baobab-trees.com/",
+            "logo_image": "logo/G06_baobab.png",
+            "logo_style": null
+        },
+        {
+            "name": "株式会社ワークスアプリケーションズ・システムズ",
+            "name_url": "https://www.worksap.co.jp/",
+            "logo_url": "https://www.worksap.co.jp/",
+            "logo_image": "logo/G07_worksap.jpg",
+            "logo_style": null
+        },
+        {
+            "name": "株式会社Legalscape",
+            "name_url": "https://www.legalscape.co.jp/",
+            "logo_url": "https://www.legalscape.co.jp/",
+            "logo_image": "logo/G08_Legalscape.png",
+            "logo_style": null
+        },
+        {
+            "name": "株式会社NTTドコモ",
+            "name_url": "https://information.nttdocomo-fresh.jp/",
+            "logo_url": "https://information.nttdocomo-fresh.jp/",
+            "logo_image": "logo/G09_docomo.png",
+            "logo_style": null
+        },
+        {
+            "name": "株式会社エクサウィザーズ",
+            "name_url": "https://exawizards.com/",
+            "logo_url": "https://exawizards.com/",
+            "logo_image": "logo/G10_exwzd.png",
+            "logo_style": "width: 62%"
+        },
+        {
+            "name": "読売新聞東京本社",
+            "name_url": "https://database.yomiuri.co.jp/about/glossary/",
+            "logo_url": "https://database.yomiuri.co.jp/about/glossary/",
+            "logo_image": "logo/G11_yomiuri.png",
+            "logo_style": null
+        },
+        {
+            "name": "株式会社メルカリ",
+            "name_url": "https://about.mercari.com/",
+            "logo_url": "https://about.mercari.com/",
+            "logo_image": "logo/G12_mercari.png",
+            "logo_style": "width: 78%"
+        },
+        {
+            "name": "株式会社キーウォーカー",
+            "name_url": "https://www.keywalker.co.jp/",
+            "logo_url": "https://www.keywalker.co.jp/",
+            "logo_image": "logo/G13_Keywalker.png",
+            "logo_style": null
+        },
+        {
+            "name": "一般社団法人アジア太平洋機械翻訳協会",
+            "name_url": "https://aamt.info/",
+            "logo_url": "https://aamt.info/",
+            "logo_image": "logo/G14_AAMT.png",
+            "logo_style": null
+        },
+        {
+            "name": "株式会社JX通信社",
+            "name_url": "https://jxpress.net/",
+            "logo_url": "https://jxpress.net/",
+            "logo_image": "logo/G15_jxpress.png",
+            "logo_style": null
+        },
+        {
+            "name": "Fairy Devices株式会社",
+            "name_url": "https://fairydevices.jp/",
+            "logo_url": "https://fairydevices.jp/",
+            "logo_image": "logo/G15_fairydevices.jpg",
+            "logo_style": null
+        },
+        {
+            "name": "Septeni Japan株式会社",
+            "name_url": "https://www.septeni.co.jp/",
+            "logo_url": "https://www.septeni.co.jp/",
+            "logo_image": "logo/G17_septeni.png",
+            "logo_style": null
+        },
+        {
+            "name": "株式会社オプト（Opt Technologies）",
+            "name_url": "https://opt-technologies.jp/",
+            "logo_url": "https://opt-technologies.jp/",
+            "logo_image": "logo/G18_opt.svg",
+            "logo_style": null
+        },
+        {
+            "name": "株式会社日本取引所グループ",
+            "name_url": "https://www.jpx.co.jp/",
+            "logo_url": "https://www.jpx.co.jp/",
+            "logo_image": "logo/G19_jpx.jpg",
+            "logo_style": "width: 41%"
+        }
+    ],
+    "silver": [
+        {
+            "name": "ベイシス・テクノロジー株式会社",
+            "name_url": "https://www.basistech.jp/",
+            "logo_url": "https://www.basistech.jp/",
+            "logo_image": "logo/S01_Basis.svg",
+            "logo_style": null
+        },
+        {
+            "name": "つうじ合同会社",
+            "name_url": "https://2gee.io",
+            "logo_url": "https://2gee.io",
+            "logo_image": "logo/S02_tuuji.png",
+            "logo_style": null
+        },
+        {
+            "name": "株式会社日本総合研究所 先端技術ラボ",
+            "name_url": "https://www.jri.co.jp/company/business/system/advtechlab/",
+            "logo_url": "https://www.jri.co.jp/",
+            "logo_image": "logo/S03_jri.jpg",
+            "logo_style": null
+        },
+        {
+            "name": "株式会社Faber Company",
+            "name_url": "https://www.fabercompany.co.jp/recruit/",
+            "logo_url": "https://www.fabercompany.co.jp/recruit/",
+            "logo_image": "logo/S04_FaberCompany.jpg",
+            "logo_style": null
+        },
+        {
+            "name": "エッジ・トランスレーション",
+            "name_url": "http://edge-translation.jp/",
+            "logo_url": "http://edge-translation.jp/",
+            "logo_image": "logo/S05_edge-translation.png",
+            "logo_style": null
+        },
+        {
+            "name": "一般財団法人　日本特許情報機構",
+            "name_url": "https://www.japio.or.jp/",
+            "logo_url": "https://www.japio.or.jp/",
+            "logo_image": "logo/S06_Japio.png",
+            "logo_style": null
+        },
+        {
+            "name": "HiTTO株式会社",
+            "name_url": "https://www.hitto.co.jp/",
+            "logo_url": "https://www.hitto.co.jp/",
+            "logo_image": "logo/S07_HiTTO.png",
+            "logo_style": null
+        },
+        {
+            "name": "株式会社エルデシュ",
+            "name_url": "https://erdos-the-book.com/",
+            "logo_url": "https://erdos-the-book.com/",
+            "logo_image": "logo/S08_erdos.svg",
+            "logo_style": null
+        },
+        {
+            "name": "エヌビディア合同会社",
+            "name_url": "https://www.nvidia.com/ja-jp/",
+            "logo_url": "https://www.nvidia.com/ja-jp/",
+            "logo_image": "logo/S09_nvidia.png",
+            "logo_style": null
+        },
+        {
+            "name": "株式会社Capex",
+            "name_url": "https://capex.ai/",
+            "logo_url": "https://capex.ai/",
+            "logo_image": "logo/S10_Capex.png",
+            "logo_style": null
+        },
+        {
+            "name": "株式会社ホットリンク",
+            "name_url": "https://www.hottolink.co.jp/",
+            "logo_url": "https://www.hottolink.co.jp/company/lab/",
+            "logo_image": "logo/S11_hottolink.svg",
+            "logo_style": null
+        },
+        {
+            "name": "ストックマーク株式会社",
+            "name_url": "https://stockmark.co.jp/recruit",
+            "logo_url": "https://stockmark.co.jp/recruit",
+            "logo_image": "logo/S12_Stockmark.jpg",
+            "logo_style": null
+        },
+        {
+            "name": "株式会社レトリバ",
+            "name_url": "https://retrieva.jp",
+            "logo_url": "https://retrieva.jp",
+            "logo_image": "logo/S13_retrieva.png",
+            "logo_style": null
+        },
+        {
+            "name": "株式会社カカクコム",
+            "name_url": "https://corporate.kakaku.com/",
+            "logo_url": "https://corporate.kakaku.com/",
+            "logo_image": "logo/S14_kakaku.jpg",
+            "logo_style": null
+        },
+        {
+            "name": "株式会社ピコラボ",
+            "name_url": "http://picolab.jp/",
+            "logo_url": "http://picolab.jp/",
+            "logo_image": "logo/S15_picolab.png",
+            "logo_style": null
+        },
+        {
+            "name": "＜人・夢・ことば＞で織りなす株式会社サン・フレア",
+            "name_url": "https://www.sunflare.com/",
+            "logo_url": "https://www.sunflare.com/",
+            "logo_image": "logo/S16_sunflare.png",
+            "logo_style": null
+        },
+        {
+            "name": "フューチャー株式会社",
+            "name_url": "https://www.future.co.jp/",
+            "logo_url": "https://www.future.co.jp/",
+            "logo_image": "logo/S17_future.png",
+            "logo_style": null
+        },
+        {
+            "name": "特定非営利活動法人言語資源協会",
+            "name_url": "https://gsk.or.jp/",
+            "logo_url": "https://gsk.or.jp/",
+            "logo_image": "logo/S18_gsk.png",
+            "logo_style": null
+        },
+        {
+            "name": "株式会社Gunosy",
+            "name_url": "https://gunosy.co.jp/",
+            "logo_url": "https://gunosy.co.jp/",
+            "logo_image": "logo/S19_gunosy.jpeg",
+            "logo_style": null
+        },
+        {
+            "name": "株式会社LIFULL",
+            "name_url": "https://lifull.com/",
+            "logo_url": "https://lifull.com/",
+            "logo_image": "logo/S20_LIFULL.gif",
+            "logo_style": null
+        },
+        {
+            "name": "株式会社Fusic",
+            "name_url": "https://fusic.co.jp/",
+            "logo_url": "https://fusic.co.jp/",
+            "logo_image": "logo/S21_Fusic.png",
+            "logo_style": null
+        },
+        {
+            "name": "MNTSQ株式会社",
+            "name_url": "https://www.mntsq.co.jp/",
+            "logo_url": "https://www.mntsq.co.jp/",
+            "logo_image": "logo/S22_MNTSQ.png",
+            "logo_style": null
+        },
+        {
+            "name": "IBM Research",
+            "name_url": "https://research.ibm.com/labs/tokyo/",
+            "logo_url": "https://research.ibm.com/labs/tokyo/",
+            "logo_image": "logo/S23_IBM_Research.png",
+            "logo_style": null
+        },
+        {
+            "name": "旭化成株式会社",
+            "name_url": "https://www.rs-information.com/asahi-kasei-dx/?_ga=2.94226522.65086987.1646096824-1065902258.1646096824",
+            "logo_url": "https://www.rs-information.com/asahi-kasei-dx/?_ga=2.94226522.65086987.1646096824-1065902258.1646096824",
+            "logo_image": "logo/S24_asahi-kasei.png",
+            "logo_style": null
+        },
+        {
+            "name": "株式会社講談社",
+            "name_url": "https://www.kodansha.co.jp/",
+            "logo_url": "https://www.kodansha.co.jp/",
+            "logo_image": "logo/S25_kodansha.png",
+            "logo_style": null
+        }
+    ]
+}

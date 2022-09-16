@@ -1,10 +1,20 @@
-# nlp2023-md
-- markdown化を検討中のファイルを集めたリポジトリです
-  - [NLP2022公式サイト](https://www.anlp.jp/nlp2022/)のコンテンツをベースとしています
-- 大会プログラムのタイムテーブルを含む下記のコンテンツは除外します
-  - https://www.anlp.jp/nlp2022/program.html
-  - https://www.anlp.jp/nlp2022/proceedings_2022/index.html
-- 参加者限定サイトを廃止するため次のフォルダ以下は除外します
-  - https://www.anlp.jp/nlp2022/program_online/
-- node_module_prettierについて
-  - フォーマッタとしておそらくモジュールを改変せずに利用している
+## 開発環境
+- Node.js: 16.17.0
+- Node Package Manager: 8.15.0
+
+## 11tyインストール
+- サイトディレクトリで下記コマンドを実行して、11tyをインストール
+`npm install @11ty/eleventy --save-dev`
+
+## HTML自動生成・ローカルサーバ立ち上げ
+- 下記コマンドを実行して、HTML生成・ローカルサーバ立ち上げ
+`eleventy --serve `
+
+## ブラウザで生成されたページを確認
+- ローカルサーバアドレスをブラウザに入力して生成されたページを確認できます
+  - 例）http://localhost:8080/
+- index.html以外のページは、ローカルサーバアドレスに続けてHTMLを指定します
+  - 例) http://localhost:8080/award.html
+
+## マークダウン記法
+- マークダウン記法については[Quiita記事](https://qiita.com/tbpgr/items/989c6badefff69377da7)などを参考にしてください

@@ -1,0 +1,215 @@
+{
+    "大会委員会": [
+        {
+            "photo": "img/committee/01_dohsaka.jpg",
+            "position": "委員長",
+            "name": "堂坂 浩二",
+            "affiliation": "（秋田県立大）"
+        },
+        {
+            "photo": "img/committee/02_matsuda.jpg",
+            "position": "副委員長",
+            "name": "松田 寛",
+            "affiliation": "（リクルート）"
+        },
+        {
+            "photo": "img/committee/03_kano.jpg",
+            "position": "実行委員長",
+            "name": "狩野 芳伸",
+            "affiliation": "（静岡大）"
+        },
+        {
+            "photo": "img/committee/04_kawahara.jpg",
+            "position": "プログラム委員長",
+            "name": "河原 大輔",
+            "affiliation": "（早稲田大）"
+        },
+        {
+            "photo": "img/committee/05_arase.jpg",
+            "position": "渉外",
+            "name": "荒瀬 由紀",
+            "affiliation": "（大阪大）"
+        },
+        {
+            "photo": "img/committee/06_aramaki.jpg",
+            "position": "渉外",
+            "name": "荒牧 英治",
+            "affiliation": "（奈良先端大）"
+        },
+        {
+            "photo": "img/committee/07_ishikawa.jpg",
+            "position": "秘書",
+            "name": "石川 真奈見"
+        },
+        {
+            "photo": "img/committee/08_inamasu.jpg",
+            "position": "秘書",
+            "name": "稲益 佐知子"
+        }
+    ],
+    "大会プログラム委員会": [
+        {
+            "photo": "img/committee/04_kawahara.jpg",
+            "position": "委員長",
+            "name": "河原 大輔",
+            "affiliation": "（早稲田大）"
+        },
+        {
+            "photo": "img/committee/10_higashinaka.png",
+            "position": "副委員長",
+            "name": "東中 竜一郎",
+            "affiliation": "（名古屋大）"
+        },
+        {
+            "photo": "img/committee/11_izumi.jpg",
+            "name": "泉 朋子",
+            "affiliation": "（マイクロソフト）"
+        },
+        {
+            "photo": "img/committee/12_enomoto.jpg",
+            "name": "榎本 美香",
+            "affiliation": "（東京工科大）"
+        },
+        {
+            "photo": "img/committee/13_ouchi.jpg",
+            "name": "大内 啓樹",
+            "affiliation": "（奈良先端大）"
+        },
+        {
+            "photo": "img/committee/15_orita.jpeg",
+            "name": "折田 奈甫",
+            "affiliation": "（早稲田大）"
+        },
+        {
+            "photo": "img/committee/16_kajiwara.jpg",
+            "name": "梶原 智之",
+            "affiliation": "（愛媛大）"
+        },
+        {
+            "photo": "img/committee/17_kameko.jpg",
+            "name": "亀甲 博貴",
+            "affiliation": "（京都大）"
+        },
+        {
+            "photo": "img/committee/18_kubo.jpg",
+            "name": "久保 圭",
+            "affiliation": "（早稲田大）"
+        },
+        {
+            "photo": "img/committee/19_kuroda.jpg",
+            "name": "黒田 由加",
+            "affiliation": "（三菱UFJリサーチ＆コンサルティング）"
+        },
+        {
+            "photo": "img/committee/20_koiso.png",
+            "name": "小磯 花絵",
+            "affiliation": "（国語研）"
+        },
+        {
+            "photo": "img/committee/21_sakaji.jpg",
+            "name": "坂地 泰紀",
+            "affiliation": "（東京大）"
+        },
+        {
+            "photo": "img/committee/noimg.png",
+            "name": "白井 清昭",
+            "affiliation": "（北陸先端大）"
+        },
+        {
+            "photo": "img/committee/23_teraoka.jpg",
+            "name": "寺岡 丈博",
+            "affiliation": "（拓殖大）"
+        },
+        {
+            "photo": "img/committee/24_nagata.jpg",
+            "name": "永田 亮",
+            "affiliation": "（甲南大）"
+        },
+        {
+            "photo": "img/committee/25_hayashibe.jpg",
+            "name": "林部 祐太",
+            "affiliation": "（リクルート）"
+        },
+        {
+            "photo": "img/committee/26_harashima.jpg",
+            "name": "原島 純",
+            "affiliation": "（クックパッド）"
+        },
+        {
+            "photo": "img/committee/27_hangyo.jpg",
+            "name": "萩行 正嗣",
+            "affiliation": "（ウェザーニューズ）"
+        },
+        {
+            "photo": "img/committee/28_masumura.jpg",
+            "name": "増村 亮",
+            "affiliation": "（NTT）"
+        },
+        {
+            "photo": "img/committee/29_mitsuda.jpg",
+            "name": "光田 航",
+            "affiliation": "（NTT）"
+        },
+        {
+            "photo": "img/committee/30_mineshima.png",
+            "name": "峯島 宏次",
+            "affiliation": "（慶應大）"
+        },
+        {
+            "photo": "img/committee/31_miyata.jpg",
+            "name": "宮田 玲",
+            "affiliation": "（名古屋大）"
+        },
+        {
+            "photo": "img/committee/32_yanaka.jpg",
+            "name": "谷中 瞳",
+            "affiliation": "（東京大）"
+        },
+        {
+            "photo": "img/committee/33_wakamiya.jpg",
+            "name": "若宮 翔子",
+            "affiliation": "（奈良先端大）"
+        },
+        {
+            "photo": "img/committee/34_suzuki.jpg",
+            "position": "アドバイザ",
+            "name": "鈴木 潤",
+            "affiliation": "（東北大）"
+        }
+    ],
+    "大会実行委員会": [
+        {
+            "photo": "img/committee/03_kano.jpg",
+            "position": "委員長",
+            "name": "狩野 芳伸",
+            "affiliation": "（静岡大）"
+        },
+        {
+            "photo": "img/committee/36_tsunakawa.jpg",
+            "position": "副委員長",
+            "name": "綱川 隆司",
+            "affiliation": "（静岡大）"
+        },
+        {
+            "photo": "img/committee/37_yokono.jpg",
+            "position": "副委員長",
+            "name": "横野 光",
+            "affiliation": "（明星大）"
+        },
+        {
+            "photo": "img/committee/noimg.png",
+            "name": "阪本 浩太郎",
+            "affiliation": "（BESNA研究所）"
+        },
+        {
+            "photo": "img/committee/noimg.png",
+            "name": "田中 リベカ",
+            "affiliation": "（お茶大）"
+        },
+        {
+            "photo": "img/committee/40_yamada.jpg",
+            "name": "山田 寛章",
+            "affiliation": "（東工大）"
+        }
+    ]
+}

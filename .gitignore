@@ -104,8 +104,9 @@ dist
 .tern-port
 
 #### anlp web page with 11ty ####
-img/
-logo/
 public/
 package-lock.json
 package.json
+
+#### for local environment ####
+.DS_Store

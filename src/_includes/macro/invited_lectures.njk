@@ -1,0 +1,15 @@
+{# 招待講演一覧 #}
+{% macro invited_lecture_list(json) %}
+  {%- for session in json -%}
+    <h3 id="{{ session.id }}">{{ session.title }}</h3>
+    <h4>講演日時：{{ session.date_time }}</h4>
+    <h4>講演者：{{ session.speaker }}</h4>
+    <img class="photo" alt="{{ session.speaker }}" src="{{ session.photo }}" width="150" hight="150"/><br/>
+    <dl>
+      <dt>概要：</dt>
+      <dd>{{ session.abstract | safe }}</dd>
+      <dt>略歴：</dt>
+      <dd>{{ session.biography | safe }}</dd>
+    </dl>
+  {%- endfor -%}
+{% endmacro %}

@@ -1,0 +1,18 @@
+{# テーマセッション一覧 #}
+{% macro theme_session_list(json) %}
+  {%- for session in json -%}
+    <h3 id="ts1">{{ session.title }}</h3>
+    <table class="name_list_ts1">
+      <tr>
+        <td><b>提案者</b></td>
+      </tr>
+      {%- for proposer in session.proposer -%}
+        <tr>
+          <td>{{ proposer }}</td>
+        </tr>
+      {%- endfor -%}
+    </table>
+    <h4>趣旨</h4>
+    <p>{{ session.abstract | safe }}</p>
+  {%- endfor -%}
+{% endmacro %}

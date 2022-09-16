@@ -1,0 +1,14 @@
+{%- macro make_table(values_, column_) -%}
+  <table>
+    <tbody>
+      {%- for names in values_ | batch(column_) -%}
+      <tr>
+        <td></td>
+        {%- for name in names -%}
+          <td> {{ name }} </td>
+        {%- endfor -%}
+      </tr>
+      {%- endfor -%}
+    </tbody>
+  </table>
+{%- endmacro -%}

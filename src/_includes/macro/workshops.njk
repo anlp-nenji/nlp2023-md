@@ -1,0 +1,26 @@
+{# ワークショップ一覧 #}
+{% macro workshop_list(json) %}
+  {%- for session in json -%}
+    <h3 id="ws1">{{ session.title }}</h3>
+    <table class="name_list_ws1">
+    <tr>
+      <td><b>提案者</b></td>
+    </tr>
+    {%- for proposer in session.proposer -%}
+      <tr>
+        <td>{{ proposer }}</td>
+      </tr>
+    {%- endfor -%}
+    <tr>
+      <td><b>Webサイト</b></td>
+    </tr>
+    <tr>
+      <td>
+        <a href="{{ session.web }}">{{ session.web }}</a>
+      </td>
+    </tr>
+    </table>
+    <h4>趣旨</h4>
+    <p>{{ session.abstract | safe }}</p>
+  {%- endfor -%}
+{% endmacro %}

@@ -9,9 +9,18 @@
 
 `npm ci`
 
-## HTML自動生成・ローカルサーバ立ち上げ
 
-下記コマンドを実行して、HTML生成・ローカルサーバ立ち上げ
+## ローカルサーバ立ち上げ
+
+下記コマンドを実行
+
+`npm run serve`
+
+## HTML自動生成
+
+下記コマンドを実行
+
+`npm run build`
 
 `eleventy --serve`
 

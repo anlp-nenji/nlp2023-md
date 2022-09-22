@@ -1,0 +1,14 @@
+<!-- _includes/past/macro_talk_list.njk -->
+{%  macro list_contents(json) %}
+  {%- for mtg in json -%}
+    <h4>{{ mtg.annual_meeting }}</h4>
+    <ul>
+      {{ mtg.note }}
+      {%- for talk in mtg.talks -%}
+        <li>
+          {{ talk }}
+        </li>
+      {%- endfor -%}
+    </ul>
+  {%- endfor -%}
+{% endmacro %}

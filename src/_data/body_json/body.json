@@ -1,0 +1,283 @@
+{
+  "プレミアムスイーツ": [
+      "Megagon Labs"
+  ],
+  "スポンサー賞": [
+      "株式会社LegalForce",
+      "NEC",
+      "株式会社サイバーエージェント",
+      "富士通株式会社",
+      "Japan Digital Design 株式会社"
+  ],
+  "platinum": [
+      {
+          "name": "Yahoo! JAPAN",
+          "url": "https://www.yahoo.co.jp/"
+      },
+      {
+          "name": "Megagon Labs",
+          "url": "https://www.megagon.ai/"
+      },
+      {
+          "name": "株式会社アドバンスト・メディア",
+          "url": "http://www.advanced-media.co.jp/ "
+      },
+      {
+          "name": "株式会社LegalForce",
+          "url": "https://legalforce-corp.com/"
+      },
+      {
+          "name": "株式会社デンソーアイティーラボラトリ",
+          "url": "https://www.d-itlab.co.jp/"
+      },
+      {
+          "name": "NEC",
+          "url": "https://jpn.nec.com/rd/index.html"
+      },
+      {
+          "name": "株式会社サイバーエージェント",
+          "url": "https://www.cyberagent.co.jp/"
+      },
+      {
+          "name": "LINE株式会社",
+          "url": "https://linecorp.com/ja/"
+      },
+      {
+          "name": "グーグル合同会社",
+          "url": "https://research.google/locations/tokyo/"
+      },
+      {
+          "name": "株式会社pluszero",
+          "url": "https://plus-zero.co.jp/"
+      },
+      {
+          "name": "国立国語研究所",
+          "url": "https://www.ninjal.ac.jp/"
+      },
+      {
+          "name": "株式会社リクルート",
+          "url": "https://www.recruit.co.jp/"
+      },
+      {
+          "name": "富士フイルム株式会社",
+          "url": "https://www.fujifilm.com/jp/ja"
+      },
+      {
+          "name": "富士通株式会社",
+          "url": "https://www.fujitsu.com/jp/"
+      },
+      {
+          "name": "楽天グループ株式会社",
+          "url": "https://rit.rakuten.com/"
+      },
+      {
+          "name": "国立研究開発法人情報通信研究機構",
+          "url": "https://www.nict.go.j"
+      },
+      {
+          "name": "Simeji",
+          "url": "https://simeji.me"
+      },
+      {
+          "name": "マイクロソフトディベロップメント株式会社",
+          "url": "https://www.microsoft.com/ja-jp/mscorp/college/msd-recruit.aspx"
+      },
+      {
+          "name": "Japan Digital Design 株式会社",
+          "url": "https://japan-d2.com/"
+      },
+      {
+          "name": "株式会社みらい翻訳",
+          "url": "https://miraitranslate.com/"
+      },
+      {
+          "name": "ちゅらデータ株式会社",
+          "url": "https://churadata.okinawa/"
+      },
+      {
+          "name": "アマゾン ウェブ サービス ジャパン合同会社",
+          "url": "https://aws.amazon.com/jp/"
+      }
+  ],
+  "gold": [
+      {
+          "name": "株式会社東芝",
+          "url": "https://www.global.toshiba/jp/cps/corporate.html"
+      },
+      {
+          "name": "株式会社FRONTEO",
+          "url": "https://www.fronteo.com/"
+      },
+      {
+          "name": "株式会社朝日新聞社",
+          "url": "https://cl.asahi.com"
+      },
+      {
+          "name": "Sansan株式会社",
+          "url": "https://sansan-dsoc.com/"
+      },
+      {
+          "name": "株式会社 Insight Tech",
+          "url": "https://insight-tech.co.jp/"
+      },
+      {
+          "name": "株式会社バオバブ",
+          "url": "https://baobab-trees.com/"
+      },
+      {
+          "name": "株式会社ワークスアプリケーションズ・システムズ",
+          "url": "https://www.worksap.co.jp/"
+      },
+      {
+          "name": "株式会社Legalscape",
+          "url": "https://www.legalscape.co.jp/"
+      },
+      {
+          "name": "株式会社NTTドコモ",
+          "url": "https://information.nttdocomo-fresh.jp/"
+      },
+      {
+          "name": "株式会社エクサウィザーズ",
+          "url": "https://exawizards.com/"
+      },
+      {
+          "name": "読売新聞東京本社",
+          "url": "https://database.yomiuri.co.jp/about/glossary/"
+      },
+      {
+          "name": "株式会社メルカリ",
+          "url": "https://about.mercari.com/"
+      },
+      {
+          "name": "株式会社キーウォーカー",
+          "url": "https://www.keywalker.co.jp/"
+      },
+      {
+          "name": "一般社団法人アジア太平洋機械翻訳協会",
+          "url": "https://aamt.info/"
+      },
+      {
+          "name": "株式会社JX通信社",
+          "url": "https://jxpress.net/"
+      },
+      {
+        "name": "Fairy Devices株式会社",
+        "url": "https://fairydevices.jp/"
+      }
+  ],
+  "silver": [
+      {
+          "name": "ベイシス・テクノロジー株式会社",
+          "url": "https://www.basistech.jp/"
+      },
+      {
+          "name": "つうじ合同会社",
+          "url": "https://2gee.io"
+      },
+      {
+          "name": "株式会社日本総合研究所 先端技術ラボ",
+          "url": "https://www.jri.co.jp/company/business/system/advtechlab/"
+
+      },
+      {
+          "name": "株式会社Faber Company",
+          "url": "https://www.fabercompany.co.jp/recruit/"
+
+      },
+      {
+          "name": "エッジ・トランスレーション",
+          "url": "http://edge-translation.jp/"
+
+      },
+      {
+          "name": "一般財団法人　日本特許情報機構",
+          "url": "https://www.japio.or.jp/"
+
+      },
+      {
+          "name": "HiTTO株式会社",
+          "url": "https://www.hitto.co.jp/"
+
+      },
+      {
+          "name": "株式会社エルデシュ",
+          "url": "https://erdos-the-book.com/"
+
+      },
+      {
+          "name": "エヌビディア合同会社",
+          "url": "https://www.nvidia.com/ja-jp/"
+
+      },
+      {
+          "name": "株式会社Capex",
+          "url": "https://capex.ai/"
+
+      },
+      {
+          "name": "株式会社ホットリンク",
+          "url": "https://www.hottolink.co.jp/"
+
+      },
+      {
+          "name": "ストックマーク株式会社",
+          "url": "https://stockmark.co.jp/recruit"
+
+      },
+      {
+          "name": "株式会社レトリバ",
+          "url": "https://retrieva.jp"
+
+      },
+      {
+          "name": "株式会社カカクコム",
+          "url": "https://corporate.kakaku.com/"
+
+      },
+      {
+          "name": "株式会社ピコラボ",
+          "url": "http://picolab.jp/"
+
+      },
+      {
+          "name": "＜人・夢・ことば＞で織りなす株式会社サン・フレア",
+          "url": "https://www.sunflare.com/"
+
+      },
+      {
+          "name": "フューチャー株式会社",
+          "url": "https://www.future.co.jp/"
+
+      },
+      {
+          "name": "特定非営利活動法人言語資源協会",
+          "url": "https://gsk.or.jp/"
+
+      },
+      {
+          "name": "株式会社Gunosy",
+          "url": "https://gunosy.co.jp/"
+
+      },
+      {
+          "name": "株式会社LIFULL",
+          "url": "https://lifull.com/"
+
+      },
+      {
+          "name": "株式会社Fusic",
+          "url": "https://fusic.co.jp/"
+
+      },
+      {
+          "name": "MNTSQ株式会社",
+          "url": "https://www.mntsq.co.jp/"
+
+      },
+      {
+          "name": "IBM Research",
+          "url": "https://research.ibm.com/labs/tokyo/"
+
+      }
+  ]
+}

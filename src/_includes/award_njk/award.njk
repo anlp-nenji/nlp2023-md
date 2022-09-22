@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-responsive.min.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/nlp20XX.css?202204011100" />
+
+  <!-- [if lt IE 9]> -->
+  <!--      <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script> -->
+  <!--      <![endif -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+
+  <script type="text/javascript">
+    !function ($) {
+      $(function () {
+        var $window = $(window)
+        $('.bs-docs-sidenav').affix({
+          offset: {
+            top: 0, bottom: 270
+          }
+        })
+      })
+    }(window.jQuery)
+  </script>
+
+  <title> {{ title }} </title>
+</head>
+
+{# サイドメニュー #}
+<body data-spy="scroll" data-target=".bs-docs-sidebar">
+  <div class="container">
+    <div class="row">
+      <div class="span3 bs-docs-sidebar">
+        <div id="menu">
+          <ul class="nav nav-list bs-docs-sidenav">
+            {# メインページ #}
+            <li><a href="{{ main_page }}">【メインページ】</a></li>
+            {# ページトップ #}
+            <li><a href="#menu">Top</a></li>
+            {# 最優秀賞 #}
+            <li><a href="#{{ award_json.best.tag }}">{{ award_json.best.name }}</a></li>
+            {# 優秀賞 #}
+            <li><a href="#{{ award_json.outstanding.tag }}">{{ award_json.outstanding.name }}</a></li>
+            {# 若手奨励賞 #}
+            <li><a href="#{{ award_json.encouragement.tag }}">{{ award_json.encouragement.name }}</a></li>
+            {# 言語資源賞 #}
+            <li><a href="#{{ award_json.resource.tag }}">{{ award_json.resource.name }}</a></li>
+            {# スポンサー賞 #}
+            <li><a href="#{{ award_json.sponsor.tag }}">{{ award_json.sponsor.name }}</a></li>
+            {# 委員特別賞 #}
+            <li><a href="#{{ award_json.committee.tag }}">{{ award_json.committee.name }}</a></li>
+          </ul>
+        </div> <!-- end of menu -->
+      </div> <!-- end of span3 -->
+
+      {# ページトップ #}
+      <div class="span9">
+        <div id="logo">
+          <h1> {{ title }} </h1>
+          <a href="index.html"><img src="./logo/NLPlogo_300x100.png" alt="言語処理学会ロゴ" /></a>
+        </div>
+        <br>
+        {# 受賞リスト #}
+        {% import "macro/macro_award_list.njk" as macro %}
+        {# 最優秀賞 #}
+        {{ macro.base(award_json.best)}}
+        {# 優秀賞 #}
+        {{ macro.base(award_json.outstanding)}}
+        {# 若手奨励賞 #}
+        {{ macro.base(award_json.encouragement)}}
+        {# 言語資源賞 #}
+        {{ macro.base(award_json.resource)}}
+        {# スポンサー賞 #}
+        {{ macro.sponsor(award_json.sponsor)}}
+        {# 委員特別賞 #}
+        {{ macro.base(award_json.committee)}}
+
+        <p align="center"><a href="#menu">top へ戻る</a></p>
+
+        <footer>
+          最終更新日: {{ last_update }}<br>
+          {{ author }}<br>
+          <address>{{ address }}</address>
+        </footer>
+
+      </div> <!-- end of span9 -->
+    </div> <!-- end of row -->
+  </div> <!-- end of container -->
+</body>
+</html>

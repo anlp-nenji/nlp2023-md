@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- version 20220128-->
+<html lang="ja">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- Facebook 用 ここから -->
+    <meta property="og:title" content="{{ og_title}}"/>
+    <meta property="og:type" content="{{ og_type }}"/>
+    <meta property="og:url" content="{{ og_url }}"/>
+    <meta property="og:image" content="{{ og_image }}"/>
+    <meta property="og:site_name" content="{{ og_site_name }}"/>
+    <meta property="og:description" content="{{ og_description }}"/>
+    <!-- Facebook 用 ここまで -->
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-responsive.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="css/nlp20XX.css?202201280000"/>
+
+    <!-- [if lt IE 9]> -->
+    <!--      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> -->
+    <!--      <![endif -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      !(function ($) {
+        $(function () {
+          var $window = $(window);
+          $(".bs-docs-sidenav").affix({
+            offset: {
+              top: 0,
+              bottom: 270
+            }
+          });
+        });
+      })(window.jQuery);
+    </script>
+
+    <title>{{ title }}</title>
+  </head>
+
+  <body>
+    <div class="span9">
+      <div id="logo">
+        <h1>{{ title }}</h1>
+        <a href="index.html"
+          ><img src="./logo/NLPlogo_300x100.png" alt="言語処理学会ロゴ"/></a>
+      </div>
+
+      {{ content | safe }}
+
+      <p align="center"><a href="#logo">top へ戻る</a></p>
+
+      <script type="text/javascript">
+        var gaJsHost = "https:" == document.location.protocol
+          ? "https://ssl."
+          : "http://www.";
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+      </script>
+      <script type="text/javascript">
+        try {
+          var pageTracker = _gat._getTracker("UA-3866154-6");
+          pageTracker._trackPageview();
+        } catch (err) {}
+      </script>
+    </div>
+  </body>
+</html>

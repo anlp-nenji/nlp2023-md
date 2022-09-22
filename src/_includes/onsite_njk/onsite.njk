@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!-- version 20220111 -->
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="bootstrap/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="bootstrap/css/bootstrap-responsive.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/nlp20XX.css?202201310000" />
+
+    <!-- [if lt IE 9]> -->
+    <!--      <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script> -->
+    <!--      <![endif -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+      !(function ($) {
+        $(function () {
+          var $window = $(window);
+          $(".bs-docs-sidenav").affix({
+            offset: {
+              top: 0,
+              bottom: 270,
+            },
+          });
+        });
+      })(window.jQuery);
+    </script>
+
+    <title>{{ title }}</title>
+  </head>
+
+  <body data-spy="scroll" data-target=".bs-docs-sidebar">
+    <div class="container">
+      <div class="row">
+        <div class="span3 bs-docs-sidebar">
+          <div id="menu">
+            <ul class="nav nav-list bs-docs-sidenav">
+              <li>
+                <a href="https://www.anlp.jp/nlp2022/">【メインページ】</a>
+              </li>
+              <li><a href="#menu">Top</a></li>
+            </ul>
+          </div>
+          <!-- end of menu -->
+        </div>
+        <!-- end of span3 -->
+
+        <div class="span9">
+          <div id="logo">
+            <h1>{{ title }}</h1>
+            <a href="index.html"
+              ><img src="./logo/NLPlogo_300x100.png" alt="言語処理学会ロゴ"
+            /></a>
+          </div>
+          <br>
+
+          {# onsite.mdの内容が取り込まれます #}
+          {{ content | safe }}
+
+          <p align="center"><a href="#menu">top へ戻る</a></p>
+
+          <footer>
+            最終更新日: {{ last_update }}<br>
+            {{ author }}<br>
+            <address>{{ address }}</address>
+          </footer>
+        </div>
+        <!-- end of span9 -->
+      </div>
+      <!-- end of row -->
+    </div>
+    <!-- end of container -->
+
+    <script type="text/javascript">
+      var gaJsHost =
+        "https:" == document.location.protocol
+          ? "https://ssl."
+          : "https://www.";
+      document.write(
+        unescape(
+          "%3Cscript src='" +
+            gaJsHost +
+            "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"
+        )
+      );
+    </script>
+    <script type="text/javascript">
+      try {
+        var pageTracker = _gat._getTracker("UA-3866154-6");
+        pageTracker._trackPageview();
+      } catch (err) {}
+    </script>
+  </body>
+</html>

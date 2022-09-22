@@ -1,0 +1,38 @@
+{# 冠スポンサー 一覧 #}
+{%- macro sponsors_kanmuri_list(values) -%}
+<table class="sponsor-kanmuri">
+  {%- for item in values -%}
+    <tr>
+      <td>
+        <span class="strong2">{{ item }}</span>
+      </td>
+    </tr>
+  {%- endfor -%}
+</table>
+{%- endmacro -%}
+
+{#　スポンサー 一覧 #}
+{%- macro body_sponsors_table(values_, class_, column_) -%}
+  <table class="{{ class_ }}">
+      {%- for items in values_  -%}
+      <tr>
+        <td>
+          <a href="{{ items.url }}">{{ items.name }}</a>
+        </td>
+      </tr>
+      {%- endfor -%}
+  </table>
+{%- endmacro -%}
+
+{# 強調一覧 #}
+{%- macro strong_list(values) -%}
+<table>
+  {%- for item in values -%}
+    <tr>
+      <td>
+        <span class="strong2">{{ item }}</span>
+      </td>
+    </tr>
+  {%- endfor -%}
+</table>
+{%- endmacro -%}

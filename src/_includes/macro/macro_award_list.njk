@@ -1,0 +1,43 @@
+<!-- _includes/award/macro_award_list.njlk -->
+{# 標準受賞リスト #}
+{%  macro base(json) %}
+<h2 id="{{ json.tag }}">{{ json.name }}{{ json.counts }}</h2>
+<table>
+    {%- for awd in json.awarded -%}
+    <tr>
+        <td class="pid">
+        <span id={{ awd.id }}>{{ awd.id }}</span>
+        </td>
+        <td>
+        <span class="title">{{ awd.title }}</span>
+        </td>
+        <tr><td></td><td>
+        {{ awd.awardees }}
+        </td><tr><td></td>
+        <td class="award_reason">{{ awd.award_reason }}</td>
+    </tr>
+    {%- endfor -%}
+</table>
+{% endmacro %}
+
+{# スポンサー賞・受賞リスト #}
+{%  macro sponsor(json) %}
+  <h2 id="{{ json.tag }}">{{ json.name }}{{ json.counts }}</h2>
+  {%- for awd in json.awarded -%}
+      <h3>{{ awd.sponsor_awd }}</h3>
+      <table>
+          <tr>
+              <td class="pid">
+              <span id={{ awd.id }}>{{ awd.id }}</span>
+              </td>
+              <td>
+              <span class="title">{{ awd.title }}</span>
+              </td>
+              <tr><td></td><td>
+              {{ awd.awardees }}
+              </td><tr><td></td>
+              <td class="award_reason">{{ awd.award_reason }}</td>
+          </tr>
+      </table>
+  {%- endfor -%}
+{% endmacro %}

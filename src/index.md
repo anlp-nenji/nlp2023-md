@@ -1,11 +1,11 @@
 ---
 # 11ty
-title: "言語処理学会第28回年次大会(NLP2022)" # 大会名
+title: "言語処理学会第29回年次大会(NLP2023)" # 大会名
 layout: "index_njk/index.njk" # テンプレート指定
 
 # フッター
-last_update: "2022年 4月 30日"
-author: "言語処理学会第28回年次大会 プログラム委員会・大会委員会"
+last_update: "2022年 9月 25日"
+author: "言語処理学会第29回年次大会 プログラム委員会・大会委員会"
 address: "nlp2022-inquiry (at) ml.anlp.jp"
 ---
 
